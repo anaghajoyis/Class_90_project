@@ -1,0 +1,23 @@
+h1{
+    color: #5a189a;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-math-education-green-pink-background-image_337360.jpg");
+}
+#body{
+    background-color: #5a189a;
+}
+.p1div, .p2div{
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-math-education-green-pink-background-image_337360.jpg") ;
+    color: #5a189a;
+    border-radius: 15%;
+}
+#p1, #p2{
+    background-color: #5a189a;
+    color: aliceblue;
+}
+#login{
+    width: 50%;
+}
+#img{
+    height: 400px;
+    width: 500px;
+}

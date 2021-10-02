@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Multiplication game!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+    body{
+        background-color:#5a189a ;
+        color: aliceblue;
+    }
+    p,h2,h3,h4{
+        background-color: lightpink;
+    }
+    #qna,#output,#input{
+        background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-math-education-green-pink-background-image_337360.jpg") ;
+    color: #5a189a;
+    border-radius: 15%;
+    }
+</style>
+<script src="multi.js"></script>
+</head>
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <div class="container">
+        <center>
+            <h1 id="head">Maths Multiplication Game!</h1>
+            <div id="qna">
+                <h2 id="question"></h2> <span id="qp"></span>
+                <br>
+                <h2 id="question"></h2> <span id="qp"></span>
+            </div>
+            <br> <br> <br>
+            <div id="output">
+                <h3 id="mq"></h3>
+                <span>
+                    <p>Answer: </p> 
+                    <input type="text" placeholder="Enter your answer here!">
+                </span>
+                <button id="check" class="btn btn-info" onclick="send()">Check!</button>
+            </div>
+            <br> <br> <br>
+            <div id="input">
+                <p>Number 1: </p>
+                <input class="form-control">
+                <p>Number 2: </p>
+                <input class="form-control">
+            </div>
+        </center>
+    </div>
+</body>
